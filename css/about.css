@@ -1,0 +1,55 @@
+.about-title {
+  background: #f3e1dc;
+  
+}
+
+.border-frame {
+ font-weight: bold;
+ border-top:2px solid #f3e1dc;
+ border-bottom:2px solid #f3e1dc;
+ 
+}
+
+.features-icon{
+  text-align: center;
+}
+
+.merit {
+  margin-top: 100px
+}
+
+.merit-item-title {
+  color: #b7b3a2;
+  margin-bottom: 20px;
+}
+
+.greeting {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.name {
+  position: relative;
+}
+
+.name::before{
+  content: "";
+  position: absolute;
+  background-image: url(../image/\(3\)ごあいさつ氏名アクセント.png);
+  bottom: 3px;
+  left: -33px;
+  height: 51px;
+  width: 53px;
+  z-index: -1;
+}
+
+.name::after{
+  content: "";
+  bottom: -30px;
+  right: -50px;
+  position: absolute;
+  background-image: url(../image/事務所について.png);
+  background-size: contain;
+  width: 180px;
+  height: 180px;
+}

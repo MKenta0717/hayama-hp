@@ -1,0 +1,55 @@
+p,
+h1,
+ul,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 2000px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+
+footer {
+  background: #f3e1dc;
+ 
+}
+
+footer .tel-icon,.email-icon {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #f3e1dc;
+  font-size: 18px;
+}
+
+footer .contact-btn {
+  border: 1px solid  #f7a48c;
+  padding: 7px 20px;
+  border-radius: 40px;
+}
+
+footer .contact-btn i {
+  color:  #f7a48c;
+}
+
+
+
+
+
+
+
+
+

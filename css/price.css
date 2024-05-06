@@ -1,0 +1,62 @@
+.price-title {
+  background: #f3e1dc;
+  margin-bottom: 50px;
+}
+
+.price-parts {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #f3e1dc;
+  padding-bottom: 50px;
+}
+
+.price-parts .title,
+.price-parts .contents {
+  margin: 0 auto;
+}
+
+.price-parts .title {
+  margin-bottom: 20px;
+}
+
+.price-parts .title div {
+  border-bottom: 4px #fbc8b9 dashed;
+  padding-bottom: 5px;
+  width: 70%;
+}
+
+
+
+td,
+th {
+  vertical-align: middle;
+  /* セルの内容を垂直方向の中央に配置 */
+  border-width: 3px !important;
+}
+
+thead th {
+  background-color: #EBE7E7 !important;
+}
+
+tbody th {
+  background-color: #F4F0E0 !important;
+}
+
+tbody td {
+  background-color: #FDF7E2 !important;
+}
+
+.business {
+  position: relative;
+  display: inline-block;
+  background: #fbc8b9;
+  padding: 8px 100px;
+  border-radius: 30px;
+}
+
+.business::after {
+  content: "＞";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}

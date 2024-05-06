@@ -1,0 +1,99 @@
+.business-title {
+  background: #f3e1dc;
+  
+}
+
+
+.business-parts {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #f3e1dc;
+  padding-bottom: 50px;
+}
+
+.business-list {
+  margin-top: 70px;
+  border-bottom: 1px solid #f3e1dc;
+  
+}
+
+.business-list ul li a {
+  text-decoration: underline;
+ }
+
+.business-list ul li i {
+ display: inline-block;
+ transform: rotate(180deg);
+ margin-right: 30px;
+}
+
+.business-list ul{
+  position: relative;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 50px 120px 40px 40px;
+  background: #f3e1dc;
+  
+}
+
+.business-list ul::before {
+  content: "業務案内一覧";
+  position: absolute;
+  top: -30px;
+  background: #fbc8b9bb;
+  padding: 3px 40px;
+  border-radius: 15px;
+}
+
+
+.business-parts .title, .business-parts .contents  {
+  margin: 0 auto;
+}
+
+.business-parts .title{
+  margin-bottom: 20px;
+}
+
+.business-parts .title div {
+  border-bottom: 4px #fbc8b9 dashed;
+  padding-bottom: 5px;
+  width: 70%;
+}
+
+.business-parts .list{
+  position: relative;
+  margin-top: 135px;
+}
+
+.business-parts .list::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  left: -20px;
+  width: 350px;
+  height: 66px;
+  background-image: url(../image/\(4\)こんなお悩み吹き出し.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.pricelist {
+  position: relative;
+  display: inline-block;
+  background: #fbc8b9;
+  padding: 8px 100px;
+  border-radius: 30px;
+}
+
+.pricelist::after {
+  content: "＞";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+
+
+
+

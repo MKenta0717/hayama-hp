@@ -1,0 +1,24 @@
+p,
+h1,
+ul,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 2000px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
