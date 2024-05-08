@@ -3,7 +3,7 @@
   <head>
     <?php get_header();?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/css/home.css">
-    <title>HOME</title>
+    <title>HOME_HOME</title>
   </head>
   <body>
     <header class="container pt-4">
